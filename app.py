@@ -1,5 +1,5 @@
-from flask import Flask, render_template_string # type: ignore
-import mysql.connector # type: ignore
+from flask import Flask, render_template_string 
+import mysql.connector 
 
 app = Flask(__name__)
 
